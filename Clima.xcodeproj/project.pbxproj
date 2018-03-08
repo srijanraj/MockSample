@@ -14,7 +14,11 @@
 		63E28AF81B99C36100FBF6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E28AF41B99C36100FBF6E0 /* Main.storyboard */; };
 		63E28AF91B99C36100FBF6E0 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AF51B99C36100FBF6E0 /* WeatherViewController.swift */; };
 		63E28AFF1B99C3B300FBF6E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E28AFE1B99C3B300FBF6E0 /* LaunchScreen.xib */; };
+		73B76A95FA50C95DC32690DA /* Pods_ClimaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B368A28A39470A5C007EE5 /* Pods_ClimaUITests.framework */; };
 		B8FFC4396945495740D96541 /* Pods_Clima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CF3E1541F39AA8B5EEE5BD /* Pods_Clima.framework */; };
+		CA536FDF2051514500577131 /* __files in Resources */ = {isa = PBXBuildFile; fileRef = CA536FDD2051514400577131 /* __files */; };
+		CA536FE02051514500577131 /* mappings in Resources */ = {isa = PBXBuildFile; fileRef = CA536FDE2051514500577131 /* mappings */; };
+		CA8F251420513F89006A5EA4 /* Wiremock.sh in Resources */ = {isa = PBXBuildFile; fileRef = CA8F251320513F89006A5EA4 /* Wiremock.sh */; };
 		CAD4CCAA204FB629004BB265 /* Config-Debug.json in Resources */ = {isa = PBXBuildFile; fileRef = CAD4CCA9204FB629004BB265 /* Config-Debug.json */; };
 		CAD4CCAC204FB63F004BB265 /* Config-Release.json in Resources */ = {isa = PBXBuildFile; fileRef = CAD4CCAB204FB63F004BB265 /* Config-Release.json */; };
 		CAD4CCAE204FB657004BB265 /* Config-Test.json in Resources */ = {isa = PBXBuildFile; fileRef = CAD4CCAD204FB657004BB265 /* Config-Test.json */; };
@@ -32,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183933D55E2839C6F7F2E26E /* Pods-ClimaUITests.tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimaUITests.tests.xcconfig"; path = "Pods/Target Support Files/Pods-ClimaUITests/Pods-ClimaUITests.tests.xcconfig"; sourceTree = "<group>"; };
+		18B368A28A39470A5C007EE5 /* Pods_ClimaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D33194C0AA791FE5F06ACFE /* Pods-ClimaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClimaUITests/Pods-ClimaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		63CF3E1541F39AA8B5EEE5BD /* Pods_Clima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E28ACB1B99C32400FBF6E0 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E28ACF1B99C32400FBF6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,8 +49,13 @@
 		63E28AF41B99C36100FBF6E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		63E28AF51B99C36100FBF6E0 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		63E28AFE1B99C3B300FBF6E0 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		788EDA9F237792055C9118E2 /* Pods-ClimaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClimaUITests/Pods-ClimaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8236288D58DBEE9B871A63BD /* Pods-Clima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clima.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clima/Pods-Clima.release.xcconfig"; sourceTree = "<group>"; };
+		87A4CC8335924A205526CD9A /* Pods-Clima.tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clima.tests.xcconfig"; path = "Pods/Target Support Files/Pods-Clima/Pods-Clima.tests.xcconfig"; sourceTree = "<group>"; };
 		9BB140805F4A38A2086748F2 /* Pods-Clima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clima.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clima/Pods-Clima.debug.xcconfig"; sourceTree = "<group>"; };
+		CA536FDD2051514400577131 /* __files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = __files; sourceTree = "<group>"; };
+		CA536FDE2051514500577131 /* mappings */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mappings; sourceTree = "<group>"; };
+		CA8F251320513F89006A5EA4 /* Wiremock.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Wiremock.sh; sourceTree = "<group>"; };
 		CAD4CCA9204FB629004BB265 /* Config-Debug.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Config-Debug.json"; sourceTree = "<group>"; };
 		CAD4CCAB204FB63F004BB265 /* Config-Release.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Config-Release.json"; sourceTree = "<group>"; };
 		CAD4CCAD204FB657004BB265 /* Config-Test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Config-Test.json"; sourceTree = "<group>"; };
@@ -65,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B76A95FA50C95DC32690DA /* Pods_ClimaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +89,10 @@
 			children = (
 				9BB140805F4A38A2086748F2 /* Pods-Clima.debug.xcconfig */,
 				8236288D58DBEE9B871A63BD /* Pods-Clima.release.xcconfig */,
+				87A4CC8335924A205526CD9A /* Pods-Clima.tests.xcconfig */,
+				788EDA9F237792055C9118E2 /* Pods-ClimaUITests.debug.xcconfig */,
+				183933D55E2839C6F7F2E26E /* Pods-ClimaUITests.tests.xcconfig */,
+				3D33194C0AA791FE5F06ACFE /* Pods-ClimaUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -84,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				63CF3E1541F39AA8B5EEE5BD /* Pods_Clima.framework */,
+				18B368A28A39470A5C007EE5 /* Pods_ClimaUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,6 +174,16 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		CA8F251220513F33006A5EA4 /* Wiremock */ = {
+			isa = PBXGroup;
+			children = (
+				CA536FDD2051514400577131 /* __files */,
+				CA536FDE2051514500577131 /* mappings */,
+				CA8F251320513F89006A5EA4 /* Wiremock.sh */,
+			);
+			path = Wiremock;
+			sourceTree = "<group>";
+		};
 		CAD4CCA8204FB5EA004BB265 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +197,7 @@
 		CAD4CCB4204FF6FB004BB265 /* ClimaUITests */ = {
 			isa = PBXGroup;
 			children = (
+				CA8F251220513F33006A5EA4 /* Wiremock */,
 				CAD4CCB5204FF6FB004BB265 /* ClimaUITests.swift */,
 				CAD4CCB7204FF6FB004BB265 /* Info.plist */,
 			);
@@ -202,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAD4CCBA204FF6FB004BB265 /* Build configuration list for PBXNativeTarget "ClimaUITests" */;
 			buildPhases = (
+				01503BDE04F27B9B834DF2CE /* [CP] Check Pods Manifest.lock */,
 				CAD4CCAF204FF6FB004BB265 /* Sources */,
 				CAD4CCB0204FF6FB004BB265 /* Frameworks */,
 				CAD4CCB1204FF6FB004BB265 /* Resources */,
+				91E6384F3DD598E380A2FF44 /* [CP] Embed Pods Frameworks */,
+				42C52A8EDDD9147523430640 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,12 +307,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA536FDF2051514500577131 /* __files in Resources */,
+				CA8F251420513F89006A5EA4 /* Wiremock.sh in Resources */,
+				CA536FE02051514500577131 /* mappings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		01503BDE04F27B9B834DF2CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42C52A8EDDD9147523430640 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClimaUITests/Pods-ClimaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		82608B0F7D4A25DD0D1CF92C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,6 +369,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clima/Pods-Clima-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91E6384F3DD598E380A2FF44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ClimaUITests/Pods-ClimaUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClimaUITests/Pods-ClimaUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E4320269D1839B05581CDD2F /* [CP] Check Pods Manifest.lock */ = {
@@ -556,7 +646,7 @@
 		};
 		CAD4CCA7204FB459004BB265 /* Tests */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BB140805F4A38A2086748F2 /* Pods-Clima.debug.xcconfig */;
+			baseConfigurationReference = 87A4CC8335924A205526CD9A /* Pods-Clima.tests.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Clima/Info.plist;
@@ -571,6 +661,7 @@
 		};
 		CAD4CCBB204FF6FB004BB265 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788EDA9F237792055C9118E2 /* Pods-ClimaUITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -596,6 +687,7 @@
 		};
 		CAD4CCBC204FF6FB004BB265 /* Tests */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183933D55E2839C6F7F2E26E /* Pods-ClimaUITests.tests.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -619,6 +711,7 @@
 		};
 		CAD4CCBD204FF6FB004BB265 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D33194C0AA791FE5F06ACFE /* Pods-ClimaUITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

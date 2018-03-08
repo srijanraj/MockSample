@@ -20,11 +20,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, Change
    // let WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather"
     
     lazy var WEATHER_URL : String? = jsonFileContent()
-
-    
-  //  var WEATHER_URL = JSON
-    
-    
     let APP_ID = "e72ca729af228beabd5d20e3b7749713"
     
     @IBAction func `switch`(_ sender: UISwitch) {
